@@ -1,1 +1,19 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.container {
+  background-color: green;
+  height: 600px;
+  display: grid;
+}
+.card {
+  height: 400px;
+  width: 200px;
+  ppadding-bottom: 3cm;
+}
+#icon {
+  align-items: flex-start;
+}
+.value {
+  place-items: center;
+  margin-top: 4cm;
+  padding-left: 2cm;
+}

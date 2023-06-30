@@ -6,6 +6,7 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 window.onload = function() {
-  //write your code here
+  Int [] icon = [♦,♥,♠,♣];
+  Int [] value=[2,3,4,5,6,7,8,9,10];
   console.log("Hello Rigo from the console!");
 };
