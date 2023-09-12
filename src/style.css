@@ -1,22 +1,30 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
 .container {
   background-color: green;
   height: 600px;
   display: grid;
 }
 .card {
-  height: 400px;
+  height: 300px;
   width: 200px;
-  ppadding-bottom: 3cm;
+  padding-bottom: 3cm;
+  margin-left: 16cm;
+  margin-top: 2cm;
+  background-color: aliceblue;
 }
 #icon {
-  align-items: flex-start;
+  align-self: start;
+  font-size: 30px;
 }
 .value {
   place-items: center;
-  margin-top: 4cm;
+  margin-top: 1cm;
+  margin-bottom: 2cm;
   padding-left: 2cm;
+  padding-top: 1cm;
+  font-size: 30px;
 }
-#icon-2{
-  align-items: flex-end;
+.icon-2 {
+  float: right;
+  margin-top: 2cm;
+  font-size: 30px;
 }
