@@ -3,7 +3,7 @@
   height: 600px;
   display: grid;
 }
-.card {
+#card {
   height: 300px;
   width: 200px;
   padding-bottom: 3cm;
@@ -15,7 +15,7 @@
   align-self: start;
   font-size: 30px;
 }
-.value {
+#value {
   place-items: center;
   margin-top: 1cm;
   margin-bottom: 2cm;

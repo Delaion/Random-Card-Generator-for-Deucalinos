@@ -24,12 +24,6 @@ const card = document.getElementById("card");
 
 const numberElement = document.getElementById("value");
 const iconElement = document.getElementById("icon");
-function generateCard() {
-  const randomNumbers = Math.floor(Math.random() * numbers.length);
-  const randomIcons = Math.floor(Math.random() * icons.length);
-  const number = numbers[randomNumbers];
-  const icon = icons[randomIcons];
-}
-const changeCardButton = document.getElementById("changeCard");
-changeCardButton.addEventListener("click", generateCard);
-console.log(generateCard);
+const randomIndex = Math.floor(Math.random() * icons.length);
+iconElement.textContent = icons[randomIndex];
+numberElement.textContent = numbers[randomIndex];
