@@ -21,9 +21,9 @@ const numbers = [
 ];
 const icons = ["♥️", "♦️", "♠️", "♣️"];
 const card = document.getElementById("card");
-
 const numberElement = document.getElementById("value");
 const iconElement = document.getElementById("icon");
 const randomIndex = Math.floor(Math.random() * icons.length);
+const randomIndex2 = Math.floor(Math.random() * numbers.length);
 iconElement.textContent = icons[randomIndex];
 numberElement.textContent = numbers[randomIndex];
