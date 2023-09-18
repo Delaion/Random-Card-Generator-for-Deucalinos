@@ -26,4 +26,4 @@ const iconElement = document.getElementById("icon");
 const randomIndex = Math.floor(Math.random() * icons.length);
 const randomIndex2 = Math.floor(Math.random() * numbers.length);
 iconElement.textContent = icons[randomIndex];
-numberElement.textContent = numbers[randomIndex];
+numberElement.textContent = numbers[randomIndex2];
